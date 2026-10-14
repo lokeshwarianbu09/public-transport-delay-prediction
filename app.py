@@ -24,8 +24,8 @@ st.set_page_config(
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-MODEL_PATH = BASE_DIR / "model" / "transport_delay_model.pkl"
-DATA_PATH = BASE_DIR / "dataset" / "transport_data.csv"
+MODEL_PATH = BASE_DIR / "transport_delay_model.pkl"
+DATA_PATH = BASE_DIR / "transport_data.csv"
 
 
 # ============================================================
